@@ -1,1 +1,1 @@
-All the tasks given by mentor are uploaded here.
+Work during the internship period.
