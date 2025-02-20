@@ -1,0 +1,40 @@
+.box1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.centered-box {
+    width: 700px; /* Adjust width as needed */
+    padding: 20px;
+    text-align:justify;
+    margin: 0 auto; /* Center horizontally */
+    font-size: 20px;
+  }
+
+h1{
+    text-align: center;
+}
+
+a:hover{
+    color: red;
+    font-size: 20px;
+    text-decoration: none;
+}
