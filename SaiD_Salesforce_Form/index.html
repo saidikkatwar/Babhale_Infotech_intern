@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salesforce Sign-Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-container">
+        <div class="info-section">
+            <img src="pc.png" alt="" width="300px">
+            <h1>Build enterprise-quality apps fast to bring your ideas to life</h1>
+            <ul>
+                <li>Build apps fast with drag and drop tools</li>
+                <li>Customize your data model with clicks</li>
+                <li>Go further with Apex code</li>
+                <li>Integrate with anything using powerful APIs</li>
+                <li>Stay protected with enterprise-grade security</li>
+                <li>Customize UI with clicks or any leading-edge web framework</li>
+            </ul>
+        </div>
+        <div class="form-section">
+            <div class="salesforce-logo">
+                <img src="logo.png" alt="Salesforce Logo">
+            </div>
+            <h2>Sign Up for Salesforce</h2>
+            <form>
+                <label for="first-name">First Name*</label>
+                <input type="text" id="first-name" required>
+                
+                <label for="last-name">Last Name*</label>
+                <input type="text" id="last-name" required>
+                
+                <label for="email">Email*</label>
+                <input type="email" id="email" required>
+                
+                <label for="role">Role*</label>
+                <select id="role">
+                    <option value="">Select your role</option>
+                    <option value="developer">Developer</option>
+                    <option value="admin">Administrator</option>
+                    <option value="other">Other</option>
+                </select>
+                
+                <label for="company">Company*</label>
+                <input type="text" id="company" required>
+                
+                <label for="country">Country/Region*</label>
+                <input type="text" id="country" required>
+                
+                <label for="postal">Postal Code*</label>
+                <input type="text" id="postal" required>
+                
+                <label for="username">Username*</label>
+                <input type="text" id="username" placeholder="jane@company.sandbox" required>
+                
+                <div class="checkbox">
+                    <input type="checkbox" id="agree" required>
+                    <label for="agree">I agree to the terms & conditions</label>
+                </div>
+                
+                <button type="submit">Sign me up</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
