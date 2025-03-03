@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: orangered;
+  flex-flow: row-reverse wrap;
+  align-items: baseline;
+}
+
+.flex-container > div {
+  background-color: rgb(247, 10, 247);
+  width: 25px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<h1>Flexible Boxes</h1>
+
+<div class="flex-container">
+  <div style="order: 8; flex-grow: 2">1</div>
+  <div style="order: 7;">2</div>
+  <div style="order: 6;">3</div>  
+  <div style="order: 5;">4</div>
+  <div style="order: 4;">5</div>
+  <div style="order: 3;">6</div>  
+  <div style="order: 2;">7</div>
+  <div style="order: 1;">8</div>
+</div>
+
+<p>Try to resize the browser window.</p>
+<p>Practicing all the properties of the Flexbox here.</p>
+
+</body>
+</html>
