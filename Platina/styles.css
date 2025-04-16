@@ -204,3 +204,114 @@ body::-webkit-scrollbar-track {
     height: 700px !important;
   }
 }
+
+.service {
+   padding: 120px 0px;
+   text-align: center;
+}
+
+.container{
+   margin-left: auto;
+   margin-right: auto;
+   padding-right: 15px;
+   padding-left: 15px;
+   width: 100%;
+}
+
+.justify-content-center{
+  justify-content: center !important;
+}
+
+.d-flex{
+  display: flex !important;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+@media (max-width: 767px){
+  .single-service{
+    margin-bottom: 30px;
+    top: 80%;
+  }
+}
+
+.single-service .content {
+  position: relative;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+a,
+a:focus,
+a:hover {
+  text-decoration: none;
+  outline: 0;
+}
+
+@media (max-width: 413px) {
+  .single-service .content .content-overlay {
+      left: 0;
+      width: 100%;
+  }
+}
+
+@media (max-width: 414px) {
+  .single-service .content .content-overlay {
+      left: 11px;
+      width: 94%;
+  }
+}
+@media (max-width: 767px) {
+  .single-service .content .content-overlay {
+      left: 20px;
+      width: 90%;
+  }
+}
+.single-service .content .content-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.single-service .content-title {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.content:hover .content-overlay {
+  opacity: 0.8;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.single-service .content:hover .content-overlay {
+  opacity: .8;
+}
